@@ -19,3 +19,17 @@ spec:
           env:
           - name: MONGODB_URI
             value: mongodb://mongouser:mongopwd@mongodb-service:27017/admin
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: api-service
+spec:
+  selector:
+    app: api
+  ports:
+    - port: 80 
+      targetPort: 8080 
+      type: NodePort
