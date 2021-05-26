@@ -24,7 +24,7 @@ Conclusão; Facilidade de gerenciamento com uma boa performance ao trabalhar na 
 
 1:Pod; fica a baixo executando os containers
 
-2:Replicaset; fica como controlador gerenciando a escalabilidade e a resiliencia do pod através do gerenciamneto de replicas em contaners.
+2:Replicaset; fica como controlador gerenciando a escalabilidade e a resiliencia do pod através do gerenciamento de replicas em contaners.
 
 3:Deployment; fica acima do Replicaset  gerenciando a troca de versão da aplicação realizando atualização da aplicação no deployment
 
